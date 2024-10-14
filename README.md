@@ -24,3 +24,6 @@
 # Edit the Student Details  - 
 ![Screenshot 2024-10-14 122041](https://github.com/user-attachments/assets/9a5f1f9e-913c-4fed-9164-7c45c20cb64f)
 ![Screenshot 2024-10-14 122110](https://github.com/user-attachments/assets/f1487b20-f57b-401f-9095-c8be29365a60)
+
+# Thankyou for your time
+  For Collaboration : rsuvamdora22101@outlook.com
