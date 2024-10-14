@@ -1,0 +1,128 @@
+/* Container and Fieldset Styling */
+.container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+fieldset {
+    border: 2px solid #6e8efb;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+legend {
+    font-size: 24px;
+    font-weight: bold;
+    color: #6e8efb;
+    padding: 0 10px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Table */
+table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+td {
+    padding: 10px 0;
+    vertical-align: top;
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+    color: #6e8efb;
+}
+
+/* Input Fields */
+input[type="text"], 
+input[type="email"], 
+input[type="number"], 
+input[type="date"], 
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #e3f2fd;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus, 
+select:focus {
+    border-color: #6e8efb;
+    box-shadow: 0 0 10px rgba(110, 142, 251, 0.3);
+    outline: none;
+}
+
+/* File Upload */
+input[type="file"] {
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #e3f2fd;
+    cursor: pointer;
+}
+
+/* Buttons */
+button[type="submit"], 
+input[type="reset"] {
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button[type="submit"]:hover, 
+input[type="reset"]:hover {
+    background: linear-gradient(135deg, #a777e3, #6e8efb);
+    transform: translateY(-3px);
+    box-shadow: 0 4px 15px rgba(110, 142, 251, 0.5);
+}
+
+/* Table Layout */
+table tr td:first-child {
+    width: 30%;
+}
+
+table tr td:last-child {
+    width: 70%;
+}
+
+/* Animations */
+input, select {
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+input:hover, select:hover {
+    background-color: #e1f5fe;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    button[type="submit"], 
+    input[type="reset"] {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+}
