@@ -1,9 +1,9 @@
-
-
 # Student-Management-System :-
 
+# Supporter:-
+<a href="https://github.com/code-with-raiden"><img src="https://github.com/code-with-raiden.png?size=96" alt="Raiden" width="96px" height="96px" /></a>
 
-# UI VIEW
+# UI VIEW:-
 # Registration Form -
 ![Screenshot 2024-10-14 121251](https://github.com/user-attachments/assets/2e556bf4-fbae-4224-a095-4a9640913a7a)
 ![Screenshot 2024-10-14 121327](https://github.com/user-attachments/assets/da707f42-b59a-4966-aa6e-4f993006d918)
